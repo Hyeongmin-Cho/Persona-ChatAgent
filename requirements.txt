@@ -1,0 +1,10 @@
+langchain
+langchain-openai
+langchain-community
+pydantic
+tavily-python
+streapipmlit
+tiktoken
+langgraph
+openai
+chromadb
