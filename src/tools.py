@@ -1,6 +1,7 @@
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_community.vectorstores import Chroma
+import api_keys
 
 
 def get_llm(model: str="gpt-4o-mini", temperature: float=0.8):

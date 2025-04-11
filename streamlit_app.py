@@ -2,6 +2,7 @@ import streamlit as st
 import uuid
 from src.graph.graph import get_persona_graph
 from langchain_core.messages import HumanMessage
+import api_keys
 
 
 def init_session_state():
@@ -23,8 +24,7 @@ def display_messages():
         if message["role"] == "user":
             st.chat_message("User").write(message["content"])
         else:
-            character_name = st.session_state.profile.get("character_name", "Assistant")
-            st.chat_message(character_name).write(message["content"])
+            st.chat_message("Assistant").write(message["content"])
 
 
 def process_message(user_input):
