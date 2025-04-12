@@ -1,11 +1,13 @@
 # Persona-ChatAgent
-You can talk to any character you like. Set their name and personality, then start the conversation!
 ![Persona_Chatbot](https://github.com/user-attachments/assets/2f34867e-efb4-495a-beb5-515683de819b)
+
+You can talk to any character you like. Set their name and personality, then start the conversation!
 
 
 ## Graph
 The Below Image illustrates the flow of the Persona Chatbot.
 ![Flow](./assets/flow.png)
+
 
 ## Requirement
 ```bash
