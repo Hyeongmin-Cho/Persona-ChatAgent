@@ -8,6 +8,7 @@ You can talk to any character you like. Set their name and personality, then sta
 The Below Image illustrates the flow of the Persona Chatbot.
 
 We adopted ***Self RAG*** + ***Corrective RAG*** architecture to enhance the reliability of responses.
+
 ![Flow](./assets/flow.png)
 
 
